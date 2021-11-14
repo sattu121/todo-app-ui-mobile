@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    border: hidden;
+    height: 500px;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    box-sizing: border-box;
+}
+.box{
+    border: 1px solid rgb(218, 72, 47);
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 25%;
+    height: 320px;
+    box-shadow: 10px 10px 8px lightgrey;
+}
+.top_heading{
+    border: 2px solid rgb(46, 44, 44);
+    border: hidden;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 170px;
+    left: 75px;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 3ch;
+    color: rgb(218, 72, 47);;
+    font-style: normal;
+    font-family: Calibri;
+    text-align: center;
+}
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 30px;
+    color: rgb(46, 44, 44);
+}
+.heading2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-left: 10px;
+    color: grey;
+}
+.heading3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: grey;
+    position: absolute;
+    right: 68px;
+}
+.circle{
+    position: absolute;
+    right: 188px;
+    color: rgb(218, 72, 47);
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(218, 72, 47);
+}
+.line1{
+    border: 0.5px solid grey;
+    width: 80%;
+    margin-left: 42px;
+    margin-top: 10px;
+    background-color: grey;
+}
+.line2{
+    border: 1px solid red;
+    background-color: red;
+    width: 170px;
+    position: absolute;
+    top: 130px;
+    margin-left: 19px;    
+}
+.completed_task{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.largerCheckBox{
+    height: 17px;
+    width: 17px;
+    margin: 5px;
+}
+.pendingTask{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 44, 44);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* index2.html */
+.top_heading2{
+    border: 2px solid black;
+    border: hidden;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.line3{
+    border: 1px solid grey;
+    background-color: grey;
+    width: 150px;
+}
+.back_box{
+    border: 1px solid black;
+    border: hidden;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.back_button{
+    font-size: 39px;
+    color: rgb(218, 72, 47);
+}
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: grey;
+    margin-left: 15px;
+}
+.box2{
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 10px;
+    width: 29%;
+    height: 420px;
+    margin-top: 65px;
+    box-shadow: 10px 10px 8px lightgrey;
+}
+.heading5{
+    font-size: 4ch;
+    color: rgb(218, 72, 47);
+    font-style: normal;
+    font-family: Calibri;
+    text-align: center;
+    margin-top: 30px;
+}
+.line4{
+    border: 1px solid grey;
+    background-color: grey;
+    width: 70%;
+    margin-left: 130px;
+    margin-top: 14px;
+}
+.line5{
+    border: 1.5px solid rgb(218, 72, 47);
+    background-color: rgb(218, 72, 47);
+    width: 186px;
+    position: absolute;
+    top: 414px;
+    margin-left: 129px;
+}
+.strike2{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 72, 47);
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.largerCheckBox2{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.pendingTask2{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 44, 44);
+    font-size: 25px;
+    margin-left: -36px;
+    margin-top: 20px;
+}
+.circle2{
+    font-size: 40px;
+    color: rgb(218, 72, 47);
+    margin-top: 166px;
+    margin-left: 370px;
+}
+
+/*popup1.html */
+.blurbox{
+    border: hidden;
+    height: 735px;
+    display: block;
+    background-image: url(./taskList.PNG);
+    background-size: 1500px;
+    filter: blur(7px);
+}
+.popup{
+    border: 1px solid rgb(218, 72, 47);
+    background-color: white;
+    border-radius: 10px;
+    width: 28%;
+    height: 210px;
+    position: relative;
+    display: block;
+    margin-top: -470px;
+}
+.heading6{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 72, 47);
+    font-size: 23px;
+    margin-top: 32px;
+    text-align: center;
+}
+#textbox{
+    height: 37px;
+    width: 294px;
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 5px;
+    margin-top: 23px;
+    box-shadow: 4px 4px 5px lightgrey;
+}
+.addButton{
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 20px;
+    width: 90px;
+    height: 38px;
+    background-color: rgb(218, 72, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*popup2.html*/
+.blurbox2{
+    border: hidden;
+    height: 735px;
+    display: block;
+    background-image: url(./tripToParis.PNG);
+    background-size: 1500px;
+    filter: blur(7px);
+}
+@media(max-width:600px){
+    .heading3{
+        display: none;
+    }
+    .top_heading{
+        width: 90%;
+        top: 46px;
+        left: 18px;
+    }
+    .heading1{
+        font-size: 45px;
+        margin-left: 0px;
+    }
+    .heading2{
+        font-size: 45px;
+    }
+    .circle{
+        right: 25px;
+        font-size: 34px;
+    }
+    .container{
+        width: 90%;
+        display: block;
+        left: 18px;
+        top: 134px;
+    }
+    .box{
+        width: 90%;
+        margin: 0px 0px 30px 0px;
+        height: 50px;
+    }
+    .line1{
+        display: none;
+    }
+    .completed_task{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .pendingTask{
+        display: none;
+    }
+    .heading{
+        font-size: 23px;
+        color: gray;
+        text-align: left;
+        margin: 8px 20px;
+    }
+    .line3{
+        display: none;
+    }
+    /*index2.html*/
+    .top_heading2{
+        width: 80%;
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+    .heading4{
+        font-size: 40px;
+    }
+    .back_box{
+        top: 2px;
+        left: 22px;
+        position: absolute;
+    }
+    .back{
+        display: none;
+    }
+    .box2{
+        width: 75%;
+        position: absolute;
+        top: 90px;
+        left: 45px;
+    }
+    .line4{
+        width: 77%;
+        position: absolute;
+        right: 0px;
+    }
+    .strike2{
+        font-size: 22px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .line5{
+        width: 64%;
+        position: absolute;
+        top: 130px;
+        right: 48px;
+    }
+    .pendingTask2{
+        font-size: 22px;
+        margin-top: 25px;
+        margin-right: 16px;
+    }
+    .circle2{
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+    }
+    .largerCheckBox2{
+        height: 18px;
+        margin: 5px;
+    }
+    /*popup1.html*/
+    .blurbox{
+        background-image: url(./taskListMobile.PNG);
+        background-size: 365px;
+        height: 650px;
+        width: 100%;
+    }
+    .popup{
+        width: 85%;
+        top: 70px;
+        height: 175px;
+    }
+    .heading6{
+        font-size: 20px;
+        margin-top: 28px;
+    }
+    #textbox{
+        width: 61%;
+        margin-top: 15px;
+    }
+    .addButton{
+        position: absolute;
+        top: 116px;
+        left: 106px;
+    }
+    /* popup2.html */
+    .blurbox2{
+        background-image: url(./tripToParisMobile.PNG);
+        height: 650px;
+        width: 100%;
+        background-size: 364px;
+    }
+}
